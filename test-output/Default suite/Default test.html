@@ -1,0 +1,334 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>51/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jun 18 19:55:03 CEST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>200 seconds (200716 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: Joseph Conrad said, “The belief in a supernatural source of evil is not necessary.  Men alone are quite capable of every wickedness.”</td>
+<td></td>
+<td>3</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: Emerson said, “All is riddle, and the key to a riddle is another riddle.”</td>
+<td></td>
+<td>2</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: Winston Churchill said, “The farther backward you can look, the farther forward you will see.”</td>
+<td></td>
+<td>3</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: Nietzsche once said, “When you look long into an abyss, the abyss looks into you.”</td>
+<td></td>
+<td>2</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: Faulkner once said, “Don’t bother just to be better than your contemporaries or predecessors.  Try to be better than yourself.”</td>
+<td></td>
+<td>2</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: James Reese once said, “There are certain clues at a crime scene which, by their very nature, do not lend themselves to being collected or examined.  How does one collect love, rage, hatred, fear…?  These are things that we’re trained to look for.”</td>
+<td></td>
+<td>3</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: Einstein once said, “Imagination is more important than knowledge.  Knowledge is limited; imagination encircles the world.”</td>
+<td></td>
+<td>3</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: Samuel Johnson wrote, “Almost all absurdity of conduct arises from the imitation of those who we cannot resemble.”</td>
+<td></td>
+<td>2</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: French poet Jacques Rigaut said, “Don’t forget that I cannot see myself, that my role is limited to being the one who looks in the mirror.”</td>
+<td></td>
+<td>2</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: Rose Kennedy once said, “Birds sing after a storm; why shouldn’t people feel as free to delight in whatever sunlight remains to them?”</td>
+<td></td>
+<td>2</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: Euripides said, “When a good man is hurt, all who would be called good must suffer with him.”</td>
+<td></td>
+<td>2</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: Euripides said, “When love is in excess it brings a man no honor nor worthiness.”</td>
+<td></td>
+<td>2</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: Nietzsche wrote, “The irrationality of a thing is not an argument against its existence, rather a condition of it.”</td>
+<td></td>
+<td>2</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: Dr. Thomas Fuller – “With foxes we must play the fox.”</td>
+<td></td>
+<td>2</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: Hemingway wrote, “There is no hunting like the hunting of man; and those who have hunted armed men long enough and liked it never really care for anything else.”</td>
+<td></td>
+<td>3</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: Carl Jung said, “The healthy man does not torture others.  Generally, it is the tortured who turn into torturers.”</td>
+<td></td>
+<td>2</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: Robert Oxton Bolt once wrote, “A belief is not merely an idea the mind possesses; it is an idea that possesses the mind.”</td>
+<td></td>
+<td>2</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: Sir Peter Ustinov said, “Unfortunately, a super abundance of dreams is paid for by a growing potential for nightmares.”</td>
+<td></td>
+<td>2</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: Playwright Eugene Ionesco said, “Ideology separates us.  Dreams and anguish bring us together.”</td>
+<td></td>
+<td>2</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: Harriet Beecher Stowe once said “The bitterest tears shed over graves are for words left unsaid and deeds left undone.”</td>
+<td></td>
+<td>2</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: “The poet, W. H. Auden wrote, ‘Evil is unspectacular, and always human, and shares our bed and eats at our table.'”</td>
+<td></td>
+<td>2</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: “Measure not the work until the day’s out and the labor done.” Elizabeth Barrett Browning.</td>
+<td></td>
+<td>2</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: Roman philosopher Lucretius said, “What is food to one, is to others bitter poison.”</td>
+<td></td>
+<td>2</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: Confucius once said, “Before you embark on a journey of revenge, dig two graves.”</td>
+<td></td>
+<td>2</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: Whoso sheddeth man’s blood, by man shall his blood be shed. Genesis 9</td>
+<td></td>
+<td>2</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: Albert Pine said, “What we do for ourselves dies with us.  What we do for others and the world remains and is immortal.”</td>
+<td></td>
+<td>6</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: Norman Maclean wrote, “It is those we live with and love and should know who elude us.”</td>
+<td></td>
+<td>2</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: W. H. Auden said, “Murder is unique in that it abolishes the party it injures, so that society must take the place of the victim and on his behalf demand atonement or grant forgiveness.”</td>
+<td></td>
+<td>5</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: Gandhi said, “Better to be violent if there’s violence in our hearts than to put on the cloak of non-violence to cover impotence.”</td>
+<td></td>
+<td>2</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: Diane Arbus once said, “A photograph is a secret about a secret.  The more it tells you, the less you know.”</td>
+<td></td>
+<td>2</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: Bernard Shaw once said, “An American has no sense of privacy.  He does not know what it means.  There is no such thing in the country.”</td>
+<td></td>
+<td>3</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: The French philosopher Voltaire wrote, “There are some that only employ words for the purpose of disguising their thoughts.”</td>
+<td></td>
+<td>4</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: The author François de la Rochefoucauld wrote, “We are so accustomed to disguise ourselves to others that in the end we become disguised to ourselves.”</td>
+<td></td>
+<td>3</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: Albert Einstein said, “Whoever undertakes to set himself up as judge in the field of truth and knowledge is shipwrecked by the laughter of the gods.”</td>
+<td></td>
+<td>3</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: George Orwell said, “In a time of universal deceit, telling the truth is a revolutionary act.”</td>
+<td></td>
+<td>2</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: Writer Elbert Hubbard said, “No man needs a vacation so much as the man who has just had one.”</td>
+<td></td>
+<td>2</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: “The defects and faults of the mind are like wounds in the body; after all imaginable care has been taken to heal them up, still there will be a scar left behind.”  French writer François de la Rochefoucauld.</td>
+<td></td>
+<td>3</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: Theologian Dietrich Bonhoeffer said “The test of the morality of a society is what it does for its children.”</td>
+<td></td>
+<td>2</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: Mark Twain wrote “Of all the animals, man is the only one that is cruel.  He is the only one that inflicts pain for the pleasure of doing it.”</td>
+<td></td>
+<td>3</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: Helen Keller once said “Although the world is full of suffering, it is full also of the overcoming of it.”</td>
+<td></td>
+<td>2</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: Robespierre wrote “Crime butchers innocence to secure a prize, and innocence struggles with all its might against the attempts of crime.”</td>
+<td></td>
+<td>2</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: Dale Turner mused “Some of the best lessons are learned from past mistakes.  The error of the past is the wisdom of the future.”</td>
+<td></td>
+<td>2</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: Ralph Waldo Emerson said “In order to learn the important lessons in life, one must, each day, surmount a fear.”</td>
+<td></td>
+<td>2</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: Aristotle said, “Evil brings men together.”</td>
+<td></td>
+<td>2</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: Condemned murderer Perry Smith said of his victims, the Clutter family</td>
+<td></td>
+<td>2</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: “From the deepest desires often come the deadliest hate.”  Socrates.</td>
+<td></td>
+<td>2</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: “Our life is made by the death of others.” Leonardo da Vinci.</td>
+<td></td>
+<td>2</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: Robert Kennedy once said “Tragedy is a tool for the living to gain wisdom, not a guide by which to live.”</td>
+<td></td>
+<td>2</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: “One man’s wilderness is another man’s theme park.”  Author unknown.</td>
+<td></td>
+<td>2</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: “Nothing is permanent in this wicked world— not even our troubles.” Charles Chaplin.</td>
+<td></td>
+<td>2</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+<tr>
+<td title='quotespage.InsertQuotes.AddQuotes()'><b>AddQuotes</b><br>Test class: quotespage.InsertQuotes<br>Parameters: “I choose my friends for their good looks, my acquaintances for their good characters, and my enemies for their good intellect.” Oscar Wilde.</td>
+<td></td>
+<td>2</td>
+<td>quotespage.InsertQuotes@e45f292</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite1]">
+  <test name="test1(failed)">
+    <classes>
+      <class name="googlepage.GooglePageSearch">
+        <methods>
+          <include name="GoogleSearch"/>
+          <include name="setUp"/>
+          <include name="beforeSuite_ExtentReport"/>
+          <include name="tearDown_ExtentReport"/>
+        </methods>
+      </class> <!-- googlepage.GooglePageSearch -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

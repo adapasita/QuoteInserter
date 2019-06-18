@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="6801" started-at="2017-12-21T23:31:26Z" finished-at="2017-12-21T23:31:33Z">
+    <groups>
+    </groups>
+    <test name="test1" duration-ms="6801" started-at="2017-12-21T23:31:26Z" finished-at="2017-12-21T23:31:33Z">
+      <class name="googlepage.GooglePageSearch">
+        <test-method status="PASS" signature="beforeSuite_ExtentReport()[pri:0, instance:googlepage.GooglePageSearch@dfd3711]" name="beforeSuite_ExtentReport" is-config="true" duration-ms="302" started-at="2017-12-22T00:31:11Z" finished-at="2017-12-22T00:31:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite_ExtentReport -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:googlepage.GooglePageSearch@dfd3711]" name="setUp" is-config="true" duration-ms="14602" started-at="2017-12-22T00:31:12Z" depends-on-methods="base.TestBaseReport.beforeSuite_ExtentReport" finished-at="2017-12-22T00:31:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeClass_ExtentReport()[pri:0, instance:googlepage.GooglePageSearch@dfd3711]" name="beforeClass_ExtentReport" is-config="true" duration-ms="4" started-at="2017-12-22T00:31:26Z" finished-at="2017-12-22T00:31:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass_ExtentReport -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:googlepage.GooglePageSearch@dfd3711]" name="initClient_ExtentReport" is-config="true" duration-ms="2" started-at="2017-12-22T00:31:26Z" finished-at="2017-12-22T00:31:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void googlepage.GooglePageSearch.GoogleSearch()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:googlepage.GooglePageSearch@dfd3711]" name="setUp" is-config="true" duration-ms="82" started-at="2017-12-22T00:31:26Z" finished-at="2017-12-22T00:31:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void googlepage.GooglePageSearch.GoogleSearch()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="GoogleSearch()[pri:1, instance:googlepage.GooglePageSearch@dfd3711]" name="GoogleSearch" duration-ms="5805" started-at="2017-12-22T00:31:26Z" finished-at="2017-12-22T00:31:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleSearch -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:googlepage.GooglePageSearch@dfd3711]" name="tearDown_ExtentReport" is-config="true" duration-ms="896" started-at="2017-12-22T00:31:32Z" finished-at="2017-12-22T00:31:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GoogleSearch status=SUCCESS method=GooglePageSearch.GoogleSearch()[pri:1, instance:googlepage.GooglePageSearch@dfd3711] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:googlepage.GooglePageSearch@dfd3711]" name="tearDown" is-config="true" duration-ms="2829" started-at="2017-12-22T00:31:33Z" finished-at="2017-12-22T00:31:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- googlepage.GooglePageSearch -->
+    </test> <!-- test1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>

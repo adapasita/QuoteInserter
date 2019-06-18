@@ -1,0 +1,2273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="51" passed="51">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="200716" started-at="2019-06-18T17:55:03Z" finished-at="2019-06-18T17:58:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="200716" started-at="2019-06-18T17:55:03Z" finished-at="2019-06-18T17:58:24Z">
+      <class name="quotespage.InsertQuotes">
+        <test-method status="PASS" signature="beforeSuite_ExtentReport()[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="beforeSuite_ExtentReport" is-config="true" duration-ms="1147" started-at="2019-06-18T19:54:54Z" finished-at="2019-06-18T19:54:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite_ExtentReport -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="8002" started-at="2019-06-18T19:54:55Z" depends-on-methods="base.TestBaseReport.beforeSuite_ExtentReport" finished-at="2019-06-18T19:55:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeClass_ExtentReport()[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="beforeClass_ExtentReport" is-config="true" duration-ms="4" started-at="2019-06-18T19:55:03Z" finished-at="2019-06-18T19:55:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass_ExtentReport -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="22" started-at="2019-06-18T19:55:42Z" finished-at="2019-06-18T19:55:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="0" started-at="2019-06-18T19:55:42Z" finished-at="2019-06-18T19:55:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="3204" started-at="2019-06-18T19:55:42Z" data-provider="quotedata" finished-at="2019-06-18T19:55:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Joseph Conrad said, “The belief in a supernatural source of evil is not necessary.  Men alone are quite capable of every wickedness.”]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="845" started-at="2019-06-18T19:55:45Z" finished-at="2019-06-18T19:55:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="2836" started-at="2019-06-18T19:55:46Z" data-provider="quotedata" finished-at="2019-06-18T19:55:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Emerson said, “All is riddle, and the key to a riddle is another riddle.”]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="0" started-at="2019-06-18T19:55:46Z" finished-at="2019-06-18T19:55:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="0" started-at="2019-06-18T19:55:46Z" finished-at="2019-06-18T19:55:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="85" started-at="2019-06-18T19:55:49Z" finished-at="2019-06-18T19:55:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="0" started-at="2019-06-18T19:55:49Z" finished-at="2019-06-18T19:55:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="3125" started-at="2019-06-18T19:55:49Z" data-provider="quotedata" finished-at="2019-06-18T19:55:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Winston Churchill said, “The farther backward you can look, the farther forward you will see.”]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="0" started-at="2019-06-18T19:55:49Z" finished-at="2019-06-18T19:55:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="83" started-at="2019-06-18T19:55:52Z" finished-at="2019-06-18T19:55:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="0" started-at="2019-06-18T19:55:52Z" finished-at="2019-06-18T19:55:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="0" started-at="2019-06-18T19:55:52Z" finished-at="2019-06-18T19:55:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="2749" started-at="2019-06-18T19:55:52Z" data-provider="quotedata" finished-at="2019-06-18T19:55:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nietzsche once said, “When you look long into an abyss, the abyss looks into you.”]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="67" started-at="2019-06-18T19:55:55Z" finished-at="2019-06-18T19:55:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="0" started-at="2019-06-18T19:55:55Z" finished-at="2019-06-18T19:55:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="0" started-at="2019-06-18T19:55:55Z" finished-at="2019-06-18T19:55:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="2953" started-at="2019-06-18T19:55:55Z" data-provider="quotedata" finished-at="2019-06-18T19:55:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Faulkner once said, “Don’t bother just to be better than your contemporaries or predecessors.  Try to be better than yourself.”]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="64" started-at="2019-06-18T19:55:58Z" finished-at="2019-06-18T19:55:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="3652" started-at="2019-06-18T19:55:58Z" data-provider="quotedata" finished-at="2019-06-18T19:56:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[James Reese once said, “There are certain clues at a crime scene which, by their very nature, do not lend themselves to being collected or examined.  How does one collect love, rage, hatred, fear…?  These are things that we’re trained to look for.”]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="0" started-at="2019-06-18T19:55:58Z" finished-at="2019-06-18T19:55:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="0" started-at="2019-06-18T19:55:58Z" finished-at="2019-06-18T19:55:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="95" started-at="2019-06-18T19:56:01Z" finished-at="2019-06-18T19:56:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="1" started-at="2019-06-18T19:56:01Z" finished-at="2019-06-18T19:56:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="3237" started-at="2019-06-18T19:56:01Z" data-provider="quotedata" finished-at="2019-06-18T19:56:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Einstein once said, “Imagination is more important than knowledge.  Knowledge is limited; imagination encircles the world.”]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="0" started-at="2019-06-18T19:56:01Z" finished-at="2019-06-18T19:56:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="62" started-at="2019-06-18T19:56:05Z" finished-at="2019-06-18T19:56:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="2923" started-at="2019-06-18T19:56:05Z" data-provider="quotedata" finished-at="2019-06-18T19:56:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samuel Johnson wrote, “Almost all absurdity of conduct arises from the imitation of those who we cannot resemble.”]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="0" started-at="2019-06-18T19:56:05Z" finished-at="2019-06-18T19:56:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="0" started-at="2019-06-18T19:56:05Z" finished-at="2019-06-18T19:56:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="74" started-at="2019-06-18T19:56:08Z" finished-at="2019-06-18T19:56:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="1" started-at="2019-06-18T19:56:08Z" finished-at="2019-06-18T19:56:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="2987" started-at="2019-06-18T19:56:08Z" data-provider="quotedata" finished-at="2019-06-18T19:56:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[French poet Jacques Rigaut said, “Don’t forget that I cannot see myself, that my role is limited to being the one who looks in the mirror.”]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="0" started-at="2019-06-18T19:56:08Z" finished-at="2019-06-18T19:56:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="61" started-at="2019-06-18T19:56:11Z" finished-at="2019-06-18T19:56:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="1" started-at="2019-06-18T19:56:11Z" finished-at="2019-06-18T19:56:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="0" started-at="2019-06-18T19:56:11Z" finished-at="2019-06-18T19:56:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="2964" started-at="2019-06-18T19:56:11Z" data-provider="quotedata" finished-at="2019-06-18T19:56:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rose Kennedy once said, “Birds sing after a storm; why shouldn’t people feel as free to delight in whatever sunlight remains to them?”]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="66" started-at="2019-06-18T19:56:14Z" finished-at="2019-06-18T19:56:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="0" started-at="2019-06-18T19:56:14Z" finished-at="2019-06-18T19:56:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="2802" started-at="2019-06-18T19:56:14Z" data-provider="quotedata" finished-at="2019-06-18T19:56:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Euripides said, “When a good man is hurt, all who would be called good must suffer with him.”]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="0" started-at="2019-06-18T19:56:14Z" finished-at="2019-06-18T19:56:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="64" started-at="2019-06-18T19:56:17Z" finished-at="2019-06-18T19:56:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="0" started-at="2019-06-18T19:56:17Z" finished-at="2019-06-18T19:56:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="0" started-at="2019-06-18T19:56:17Z" finished-at="2019-06-18T19:56:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="2808" started-at="2019-06-18T19:56:17Z" data-provider="quotedata" finished-at="2019-06-18T19:56:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Euripides said, “When love is in excess it brings a man no honor nor worthiness.”]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="81" started-at="2019-06-18T19:56:19Z" finished-at="2019-06-18T19:56:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="1" started-at="2019-06-18T19:56:20Z" finished-at="2019-06-18T19:56:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="0" started-at="2019-06-18T19:56:20Z" finished-at="2019-06-18T19:56:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="2914" started-at="2019-06-18T19:56:20Z" data-provider="quotedata" finished-at="2019-06-18T19:56:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nietzsche wrote, “The irrationality of a thing is not an argument against its existence, rather a condition of it.”]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="61" started-at="2019-06-18T19:56:22Z" finished-at="2019-06-18T19:56:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="1" started-at="2019-06-18T19:56:23Z" finished-at="2019-06-18T19:56:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="2609" started-at="2019-06-18T19:56:23Z" data-provider="quotedata" finished-at="2019-06-18T19:56:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dr. Thomas Fuller – “With foxes we must play the fox.”]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="0" started-at="2019-06-18T19:56:23Z" finished-at="2019-06-18T19:56:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="77" started-at="2019-06-18T19:56:25Z" finished-at="2019-06-18T19:56:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="0" started-at="2019-06-18T19:56:25Z" finished-at="2019-06-18T19:56:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="3056" started-at="2019-06-18T19:56:25Z" data-provider="quotedata" finished-at="2019-06-18T19:56:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hemingway wrote, “There is no hunting like the hunting of man; and those who have hunted armed men long enough and liked it never really care for anything else.”]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="0" started-at="2019-06-18T19:56:25Z" finished-at="2019-06-18T19:56:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="54" started-at="2019-06-18T19:56:28Z" finished-at="2019-06-18T19:56:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="1" started-at="2019-06-18T19:56:28Z" finished-at="2019-06-18T19:56:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="2854" started-at="2019-06-18T19:56:28Z" data-provider="quotedata" finished-at="2019-06-18T19:56:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Carl Jung said, “The healthy man does not torture others.  Generally, it is the tortured who turn into torturers.”]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="0" started-at="2019-06-18T19:56:28Z" finished-at="2019-06-18T19:56:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="76" started-at="2019-06-18T19:56:31Z" finished-at="2019-06-18T19:56:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="0" started-at="2019-06-18T19:56:31Z" finished-at="2019-06-18T19:56:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="2835" started-at="2019-06-18T19:56:31Z" data-provider="quotedata" finished-at="2019-06-18T19:56:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Robert Oxton Bolt once wrote, “A belief is not merely an idea the mind possesses; it is an idea that possesses the mind.”]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="0" started-at="2019-06-18T19:56:31Z" finished-at="2019-06-18T19:56:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="68" started-at="2019-06-18T19:56:34Z" finished-at="2019-06-18T19:56:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="1" started-at="2019-06-18T19:56:34Z" finished-at="2019-06-18T19:56:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="2819" started-at="2019-06-18T19:56:34Z" data-provider="quotedata" finished-at="2019-06-18T19:56:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sir Peter Ustinov said, “Unfortunately, a super abundance of dreams is paid for by a growing potential for nightmares.”]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="0" started-at="2019-06-18T19:56:34Z" finished-at="2019-06-18T19:56:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="61" started-at="2019-06-18T19:56:37Z" finished-at="2019-06-18T19:56:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="1" started-at="2019-06-18T19:56:37Z" finished-at="2019-06-18T19:56:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="2738" started-at="2019-06-18T19:56:37Z" data-provider="quotedata" finished-at="2019-06-18T19:56:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Playwright Eugene Ionesco said, “Ideology separates us.  Dreams and anguish bring us together.”]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="0" started-at="2019-06-18T19:56:37Z" finished-at="2019-06-18T19:56:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="312" started-at="2019-06-18T19:56:40Z" finished-at="2019-06-18T19:56:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="1" started-at="2019-06-18T19:56:40Z" finished-at="2019-06-18T19:56:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="1" started-at="2019-06-18T19:56:40Z" finished-at="2019-06-18T19:56:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="2943" started-at="2019-06-18T19:56:40Z" data-provider="quotedata" finished-at="2019-06-18T19:56:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Harriet Beecher Stowe once said “The bitterest tears shed over graves are for words left unsaid and deeds left undone.”]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="68" started-at="2019-06-18T19:56:43Z" finished-at="2019-06-18T19:56:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="0" started-at="2019-06-18T19:56:43Z" finished-at="2019-06-18T19:56:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="0" started-at="2019-06-18T19:56:43Z" finished-at="2019-06-18T19:56:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="2904" started-at="2019-06-18T19:56:43Z" data-provider="quotedata" finished-at="2019-06-18T19:56:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[“The poet, W. H. Auden wrote, ‘Evil is unspectacular, and always human, and shares our bed and eats at our table.'”]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="60" started-at="2019-06-18T19:56:46Z" finished-at="2019-06-18T19:56:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="1" started-at="2019-06-18T19:56:46Z" finished-at="2019-06-18T19:56:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="2890" started-at="2019-06-18T19:56:46Z" data-provider="quotedata" finished-at="2019-06-18T19:56:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[“Measure not the work until the day’s out and the labor done.” Elizabeth Barrett Browning.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="0" started-at="2019-06-18T19:56:46Z" finished-at="2019-06-18T19:56:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="76" started-at="2019-06-18T19:56:49Z" finished-at="2019-06-18T19:56:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="0" started-at="2019-06-18T19:56:49Z" finished-at="2019-06-18T19:56:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="0" started-at="2019-06-18T19:56:49Z" finished-at="2019-06-18T19:56:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="2792" started-at="2019-06-18T19:56:49Z" data-provider="quotedata" finished-at="2019-06-18T19:56:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Roman philosopher Lucretius said, “What is food to one, is to others bitter poison.”]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="57" started-at="2019-06-18T19:56:52Z" finished-at="2019-06-18T19:56:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="0" started-at="2019-06-18T19:56:52Z" finished-at="2019-06-18T19:56:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="2650" started-at="2019-06-18T19:56:52Z" data-provider="quotedata" finished-at="2019-06-18T19:56:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Confucius once said, “Before you embark on a journey of revenge, dig two graves.”]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="0" started-at="2019-06-18T19:56:52Z" finished-at="2019-06-18T19:56:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="66" started-at="2019-06-18T19:56:55Z" finished-at="2019-06-18T19:56:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="1" started-at="2019-06-18T19:56:55Z" finished-at="2019-06-18T19:56:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="0" started-at="2019-06-18T19:56:55Z" finished-at="2019-06-18T19:56:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="2658" started-at="2019-06-18T19:56:55Z" data-provider="quotedata" finished-at="2019-06-18T19:56:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Whoso sheddeth man’s blood, by man shall his blood be shed. Genesis 9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="57" started-at="2019-06-18T19:56:57Z" finished-at="2019-06-18T19:56:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="0" started-at="2019-06-18T19:56:57Z" finished-at="2019-06-18T19:56:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="6742" started-at="2019-06-18T19:56:57Z" data-provider="quotedata" finished-at="2019-06-18T19:57:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Albert Pine said, “What we do for ourselves dies with us.  What we do for others and the world remains and is immortal.”]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="0" started-at="2019-06-18T19:56:57Z" finished-at="2019-06-18T19:56:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="851" started-at="2019-06-18T19:57:04Z" finished-at="2019-06-18T19:57:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="0" started-at="2019-06-18T19:57:05Z" finished-at="2019-06-18T19:57:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="0" started-at="2019-06-18T19:57:05Z" finished-at="2019-06-18T19:57:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="2871" started-at="2019-06-18T19:57:05Z" data-provider="quotedata" finished-at="2019-06-18T19:57:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Norman Maclean wrote, “It is those we live with and love and should know who elude us.”]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="62" started-at="2019-06-18T19:57:08Z" finished-at="2019-06-18T19:57:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="1" started-at="2019-06-18T19:57:08Z" finished-at="2019-06-18T19:57:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="0" started-at="2019-06-18T19:57:08Z" finished-at="2019-06-18T19:57:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="5988" started-at="2019-06-18T19:57:08Z" data-provider="quotedata" finished-at="2019-06-18T19:57:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[W. H. Auden said, “Murder is unique in that it abolishes the party it injures, so that society must take the place of the victim and on his behalf demand atonement or grant forgiveness.”]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="60" started-at="2019-06-18T19:57:14Z" finished-at="2019-06-18T19:57:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="0" started-at="2019-06-18T19:57:14Z" finished-at="2019-06-18T19:57:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="2963" started-at="2019-06-18T19:57:14Z" data-provider="quotedata" finished-at="2019-06-18T19:57:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gandhi said, “Better to be violent if there’s violence in our hearts than to put on the cloak of non-violence to cover impotence.”]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="0" started-at="2019-06-18T19:57:14Z" finished-at="2019-06-18T19:57:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="65" started-at="2019-06-18T19:57:17Z" finished-at="2019-06-18T19:57:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="1" started-at="2019-06-18T19:57:17Z" finished-at="2019-06-18T19:57:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="2821" started-at="2019-06-18T19:57:17Z" data-provider="quotedata" finished-at="2019-06-18T19:57:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Diane Arbus once said, “A photograph is a secret about a secret.  The more it tells you, the less you know.”]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="0" started-at="2019-06-18T19:57:17Z" finished-at="2019-06-18T19:57:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="64" started-at="2019-06-18T19:57:20Z" finished-at="2019-06-18T19:57:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="0" started-at="2019-06-18T19:57:20Z" finished-at="2019-06-18T19:57:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="0" started-at="2019-06-18T19:57:20Z" finished-at="2019-06-18T19:57:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="3070" started-at="2019-06-18T19:57:20Z" data-provider="quotedata" finished-at="2019-06-18T19:57:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bernard Shaw once said, “An American has no sense of privacy.  He does not know what it means.  There is no such thing in the country.”]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="59" started-at="2019-06-18T19:57:23Z" finished-at="2019-06-18T19:57:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="4312" started-at="2019-06-18T19:57:23Z" data-provider="quotedata" finished-at="2019-06-18T19:57:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[The French philosopher Voltaire wrote, “There are some that only employ words for the purpose of disguising their thoughts.”]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="0" started-at="2019-06-18T19:57:23Z" finished-at="2019-06-18T19:57:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="0" started-at="2019-06-18T19:57:23Z" finished-at="2019-06-18T19:57:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="564" started-at="2019-06-18T19:57:27Z" finished-at="2019-06-18T19:57:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="1" started-at="2019-06-18T19:57:28Z" finished-at="2019-06-18T19:57:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="3419" started-at="2019-06-18T19:57:28Z" data-provider="quotedata" finished-at="2019-06-18T19:57:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[The author François de la Rochefoucauld wrote, “We are so accustomed to disguise ourselves to others that in the end we become disguised to ourselves.”]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="0" started-at="2019-06-18T19:57:28Z" finished-at="2019-06-18T19:57:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="55" started-at="2019-06-18T19:57:31Z" finished-at="2019-06-18T19:57:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="0" started-at="2019-06-18T19:57:31Z" finished-at="2019-06-18T19:57:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="3652" started-at="2019-06-18T19:57:31Z" data-provider="quotedata" finished-at="2019-06-18T19:57:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Albert Einstein said, “Whoever undertakes to set himself up as judge in the field of truth and knowledge is shipwrecked by the laughter of the gods.”]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="0" started-at="2019-06-18T19:57:31Z" finished-at="2019-06-18T19:57:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="74" started-at="2019-06-18T19:57:35Z" finished-at="2019-06-18T19:57:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="0" started-at="2019-06-18T19:57:35Z" finished-at="2019-06-18T19:57:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="1" started-at="2019-06-18T19:57:35Z" finished-at="2019-06-18T19:57:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="2855" started-at="2019-06-18T19:57:35Z" data-provider="quotedata" finished-at="2019-06-18T19:57:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[George Orwell said, “In a time of universal deceit, telling the truth is a revolutionary act.”]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="61" started-at="2019-06-18T19:57:38Z" finished-at="2019-06-18T19:57:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="2752" started-at="2019-06-18T19:57:38Z" data-provider="quotedata" finished-at="2019-06-18T19:57:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Writer Elbert Hubbard said, “No man needs a vacation so much as the man who has just had one.”]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="0" started-at="2019-06-18T19:57:38Z" finished-at="2019-06-18T19:57:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="0" started-at="2019-06-18T19:57:38Z" finished-at="2019-06-18T19:57:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="79" started-at="2019-06-18T19:57:41Z" finished-at="2019-06-18T19:57:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="0" started-at="2019-06-18T19:57:41Z" finished-at="2019-06-18T19:57:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="1" started-at="2019-06-18T19:57:41Z" finished-at="2019-06-18T19:57:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="3438" started-at="2019-06-18T19:57:41Z" data-provider="quotedata" finished-at="2019-06-18T19:57:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[“The defects and faults of the mind are like wounds in the body; after all imaginable care has been taken to heal them up, still there will be a scar left behind.”  French writer François de la Rochefoucauld.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="59" started-at="2019-06-18T19:57:44Z" finished-at="2019-06-18T19:57:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="2759" started-at="2019-06-18T19:57:44Z" data-provider="quotedata" finished-at="2019-06-18T19:57:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Theologian Dietrich Bonhoeffer said “The test of the morality of a society is what it does for its children.”]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="0" started-at="2019-06-18T19:57:44Z" finished-at="2019-06-18T19:57:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="0" started-at="2019-06-18T19:57:44Z" finished-at="2019-06-18T19:57:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="58" started-at="2019-06-18T19:57:47Z" finished-at="2019-06-18T19:57:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="1" started-at="2019-06-18T19:57:47Z" finished-at="2019-06-18T19:57:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="0" started-at="2019-06-18T19:57:47Z" finished-at="2019-06-18T19:57:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="3038" started-at="2019-06-18T19:57:47Z" data-provider="quotedata" finished-at="2019-06-18T19:57:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mark Twain wrote “Of all the animals, man is the only one that is cruel.  He is the only one that inflicts pain for the pleasure of doing it.”]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="60" started-at="2019-06-18T19:57:50Z" finished-at="2019-06-18T19:57:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="0" started-at="2019-06-18T19:57:50Z" finished-at="2019-06-18T19:57:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="2757" started-at="2019-06-18T19:57:50Z" data-provider="quotedata" finished-at="2019-06-18T19:57:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Helen Keller once said “Although the world is full of suffering, it is full also of the overcoming of it.”]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="0" started-at="2019-06-18T19:57:50Z" finished-at="2019-06-18T19:57:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="59" started-at="2019-06-18T19:57:53Z" finished-at="2019-06-18T19:57:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="0" started-at="2019-06-18T19:57:53Z" finished-at="2019-06-18T19:57:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="0" started-at="2019-06-18T19:57:53Z" finished-at="2019-06-18T19:57:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="2977" started-at="2019-06-18T19:57:53Z" data-provider="quotedata" finished-at="2019-06-18T19:57:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Robespierre wrote “Crime butchers innocence to secure a prize, and innocence struggles with all its might against the attempts of crime.”]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="57" started-at="2019-06-18T19:57:56Z" finished-at="2019-06-18T19:57:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="0" started-at="2019-06-18T19:57:56Z" finished-at="2019-06-18T19:57:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="2939" started-at="2019-06-18T19:57:56Z" data-provider="quotedata" finished-at="2019-06-18T19:57:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dale Turner mused “Some of the best lessons are learned from past mistakes.  The error of the past is the wisdom of the future.”]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="0" started-at="2019-06-18T19:57:56Z" finished-at="2019-06-18T19:57:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="63" started-at="2019-06-18T19:57:59Z" finished-at="2019-06-18T19:57:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="0" started-at="2019-06-18T19:57:59Z" finished-at="2019-06-18T19:57:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="2862" started-at="2019-06-18T19:57:59Z" data-provider="quotedata" finished-at="2019-06-18T19:58:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ralph Waldo Emerson said “In order to learn the important lessons in life, one must, each day, surmount a fear.”]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="0" started-at="2019-06-18T19:57:59Z" finished-at="2019-06-18T19:57:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="51" started-at="2019-06-18T19:58:02Z" finished-at="2019-06-18T19:58:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="0" started-at="2019-06-18T19:58:02Z" finished-at="2019-06-18T19:58:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="2590" started-at="2019-06-18T19:58:02Z" data-provider="quotedata" finished-at="2019-06-18T19:58:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Aristotle said, “Evil brings men together.”]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="0" started-at="2019-06-18T19:58:02Z" finished-at="2019-06-18T19:58:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="57" started-at="2019-06-18T19:58:05Z" finished-at="2019-06-18T19:58:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="0" started-at="2019-06-18T19:58:05Z" finished-at="2019-06-18T19:58:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="2745" started-at="2019-06-18T19:58:05Z" data-provider="quotedata" finished-at="2019-06-18T19:58:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Condemned murderer Perry Smith said of his victims, the Clutter family]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="0" started-at="2019-06-18T19:58:05Z" finished-at="2019-06-18T19:58:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="57" started-at="2019-06-18T19:58:07Z" finished-at="2019-06-18T19:58:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="0" started-at="2019-06-18T19:58:07Z" finished-at="2019-06-18T19:58:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="2626" started-at="2019-06-18T19:58:07Z" data-provider="quotedata" finished-at="2019-06-18T19:58:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[“From the deepest desires often come the deadliest hate.”  Socrates.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="0" started-at="2019-06-18T19:58:07Z" finished-at="2019-06-18T19:58:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="55" started-at="2019-06-18T19:58:10Z" finished-at="2019-06-18T19:58:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="2642" started-at="2019-06-18T19:58:10Z" data-provider="quotedata" finished-at="2019-06-18T19:58:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[“Our life is made by the death of others.” Leonardo da Vinci.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="0" started-at="2019-06-18T19:58:10Z" finished-at="2019-06-18T19:58:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="0" started-at="2019-06-18T19:58:10Z" finished-at="2019-06-18T19:58:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="108" started-at="2019-06-18T19:58:13Z" finished-at="2019-06-18T19:58:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="2807" started-at="2019-06-18T19:58:13Z" data-provider="quotedata" finished-at="2019-06-18T19:58:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Robert Kennedy once said “Tragedy is a tool for the living to gain wisdom, not a guide by which to live.”]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="0" started-at="2019-06-18T19:58:13Z" finished-at="2019-06-18T19:58:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="0" started-at="2019-06-18T19:58:13Z" finished-at="2019-06-18T19:58:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="47" started-at="2019-06-18T19:58:16Z" finished-at="2019-06-18T19:58:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="0" started-at="2019-06-18T19:58:16Z" finished-at="2019-06-18T19:58:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="0" started-at="2019-06-18T19:58:16Z" finished-at="2019-06-18T19:58:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="2614" started-at="2019-06-18T19:58:16Z" data-provider="quotedata" finished-at="2019-06-18T19:58:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[“One man’s wilderness is another man’s theme park.”  Author unknown.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="45" started-at="2019-06-18T19:58:18Z" finished-at="2019-06-18T19:58:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="1" started-at="2019-06-18T19:58:18Z" finished-at="2019-06-18T19:58:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="0" started-at="2019-06-18T19:58:18Z" finished-at="2019-06-18T19:58:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="2720" started-at="2019-06-18T19:58:18Z" data-provider="quotedata" finished-at="2019-06-18T19:58:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[“Nothing is permanent in this wicked world— not even our troubles.” Charles Chaplin.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="80" started-at="2019-06-18T19:58:21Z" finished-at="2019-06-18T19:58:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="AddQuotes" duration-ms="2927" started-at="2019-06-18T19:58:21Z" data-provider="quotedata" finished-at="2019-06-18T19:58:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[“I choose my friends for their good looks, my acquaintances for their good characters, and my enemies for their good intellect.” Oscar Wilde.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotes -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="setUp" is-config="true" duration-ms="0" started-at="2019-06-18T19:58:21Z" finished-at="2019-06-18T19:58:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initClient_ExtentReport(java.lang.reflect.Method)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="initClient_ExtentReport" is-config="true" duration-ms="0" started-at="2019-06-18T19:58:21Z" finished-at="2019-06-18T19:58:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quotespage.InsertQuotes.AddQuotes(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClient_ExtentReport -->
+        <test-method status="PASS" signature="tearDown_ExtentReport(org.testng.ITestResult)[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown_ExtentReport" is-config="true" duration-ms="73" started-at="2019-06-18T19:58:24Z" finished-at="2019-06-18T19:58:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuotes status=SUCCESS method=InsertQuotes.AddQuotes(java.lang.String)[pri:0, instance:quotespage.InsertQuotes@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_ExtentReport -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:quotespage.InsertQuotes@e45f292]" name="tearDown" is-config="true" duration-ms="1229" started-at="2019-06-18T19:58:24Z" finished-at="2019-06-18T19:58:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- quotespage.InsertQuotes -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
